@@ -1,0 +1,40 @@
+.header{
+    margin-bottom : 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 50px;
+    justify-content: space-around;
+    
+}
+
+.search-input{
+    width: 40%;
+    height: 40px;
+    background: rgb(49, 47, 47);
+    border-radius: 10px;
+    padding-left: 45px;
+    color: white;
+    border: 0;
+    background-image: url(https://cdn2.iconfinder.com/data/icons/media-and-navigation-buttons-square/512/Button_15-512.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+.search-input:focus{
+    outline: none;
+}
+#egy{
+    color: #f90000;
+  }
+  #best{
+    color: #0064ca;
+  }
+
+.star{
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.rating{
+    min-width: 200px;
+}
